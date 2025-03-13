@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+body {
+    background: #08090A;
+}
+
+@keyframes scrollLeft {
+    from {
+    transform: translateX(0%);
+    }
+    to {
+    transform: translateX(-50%);
+    }
+}
+
+@keyframes scrollRight {
+    from {
+    transform: translateX(-50%);
+    }
+    to {
+    transform: translateX(0%);
+    }
+}
+
+.animate-scroll-left {
+    animation: scrollLeft 10s linear infinite;
+    white-space: nowrap;
+}
+
+.animate-scroll-right {
+    animation: scrollRight 10s linear infinite;
+    white-space: nowrap;
+}
