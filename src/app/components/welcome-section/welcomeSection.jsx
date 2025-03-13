@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-const Checkmarks = () => {
+const WelcomeSection = () => {
 const features = [
 {
     id: "ai-pr-review",
@@ -84,4 +84,4 @@ return (
 );
 };
 
-export default Checkmarks;
+export default WelcomeSection;

@@ -2,10 +2,10 @@
 import { motion } from "framer-motion";
 import Navbar from "./components/navbar/navbar";
 import Banner from "./components/banner/banner";
-import Checkmarks from "./components/checkmarks/checkmarks";
-import Pattern from "./components/pattern-examples/pattern";
+import WelcomeSection from "./components/welcome-section/welcomeSection";
+import PatternExamples from "./components/pattern-examples/pattern";
 import Features from "./components/features/features";
-import Sections from "./components/sections/sections";
+import Sections from "./components/endingSection/sections";
 import Slider from "./components/sliders/slider";
 import BotDownload from "./components/botDownload/botDownload";
 import Footer from "./components/footer/footer";
@@ -19,8 +19,8 @@ export default function Home() {
     >
       <Navbar />
       <Banner />
-      <Checkmarks />
-      <Pattern />
+      <WelcomeSection />
+      <PatternExamples />
       <Features />
       <Sections />
       <Slider />

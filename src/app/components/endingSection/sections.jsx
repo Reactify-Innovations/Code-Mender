@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const CodeReviewComponent = () => {
+const Sections = () => {
 return (
     <div className="text-white min-h-screen w-full xl:w-[70%] mx-auto p-4 xl:p-8 lg:p-12 flex flex-col items-center justify-center relative">
     {/* Header */}
@@ -123,4 +123,4 @@ return (
 );
 };
 
-export default CodeReviewComponent;
+export default Sections;
