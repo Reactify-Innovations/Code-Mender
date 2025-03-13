@@ -56,38 +56,38 @@ create: {
 const renderIcon = (iconName) => {
 switch (iconName) {
     case "typescript":
-    return <img src="/patterns-icons/icon.png" alt="" />;
+    return <img src="/patterns-icons/Icon.png" alt="" />;
     case "react":
-    return <img src="/patterns-icons/icon (1).png" alt="" />;
+    return <img src="/patterns-icons/Icon (1).png" alt="" />;
     case "java":
-    return <img src="/patterns-icons/icon (2).png" alt="" />;
+    return <img src="/patterns-icons/Icon (2).png" alt="" />;
     case "create":
-    return <img src="/patterns-icons/icon (3).png" alt="" />;
+    return <img src="/patterns-icons/Icon (3).png" alt="" />;
     case "mail":
-    return <img src="/patterns-icons/icon4.png" alt="" />;
+    return <img src="/patterns-icons/Icon4.png" alt="" />;
     case "table":
-    return <img src="/patterns-icons/icon5.png" alt="" />;
+    return <img src="/patterns-icons/Icon5.png" alt="" />;
     case "chat":
-    return <img src="/patterns-icons/icon6.png" alt="" />;
+    return <img src="/patterns-icons/Icon6.png" alt="" />;
     default:
     return null;
 }
 };
 
-const renderChartImage = () => {
-    return (
-      <div className="relative w-full h-[300px] max-w-[500px] mx-auto">
-        <Image
-          src="/chart.png"
-          alt="Chart"
-          width={500}
-          height={300}
-          className="absolute inset-0 w-full h-full object-contain"
-        />
-      </div>
-    );
-  };
-  
+    const renderChartImage = () => {
+        return (
+        <div className="relative w-full h-[300px] max-w-[500px] mx-auto">
+            <Image
+            src="/chart.png"
+            alt="Chart"
+            width={500}
+            height={300}
+            className="absolute inset-0 w-full h-full object-contain"
+            />
+        </div>
+        );
+    };
+    
 
 const currentContent = tabContent[activeTab];
 

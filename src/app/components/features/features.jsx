@@ -20,7 +20,7 @@ return (
         {/* Customized rule-based reviews */}
         <div className="bg-[#16161A] rounded-3xl p-6 flex flex-col xl:h-[300px] w-full">
             <div className="bg-[#26262B] w-12 h-12 rounded-lg flex items-center justify-center mb-4">
-                <img src="/features-images/icon.png" alt="" />
+                <img src="/features-images/Icon.png" alt="" />
             </div>
             <h3 className="text-md md:text-lg font-semibold mb-2">Customized rule-based reviews</h3>
             <p className="text-gray-400 text-[12px] md:text-sm flex-grow w-full  lg:w-[65%] z-10">
@@ -29,7 +29,7 @@ return (
             rules example
             </p>
             <div className="hidden lg:flex justify-end absolute lg:translate-x-43 xl:translate-x-47 lg:translate-y-9 xl:translate-y-13 lg:w-[200px] xl:w-auto overflow-hidden">
-            <div className=""> <img src="/features-images/image3.png" alt="" className='' /> </div>
+            <div className=""> <img src="/features-images/Image3.png" alt="" className='' /> </div>
             </div>
         </div>
 
@@ -37,7 +37,7 @@ return (
         <div className="bg-[#16161A] rounded-3xl p-6 flex lg:h-[250px] xl:h-[300px] w-full">
             <div>
             <div className="bg-[#26262B] w-12 h-12 rounded-lg flex items-center justify-center mb-4">
-            <img src="/features-images/icon1.png" alt="" />
+            <img src="/features-images/Icon1.png" alt="" />
             </div>
             <h3 className="text-md md:text-lg font-semibold mb-2">Team collaboration</h3>
             <p className="text-gray-400 text-[12px] md:text-sm flex-grow w-full md:w-[55%]">
@@ -47,7 +47,7 @@ return (
 
             </div>
             <div className="hidden lg:flex justify-end absolute lg:translate-x-53 lg:translate-y-10 xl:translate-x-53 xl:translate-y-7 z-20 lg:w-[160px] xl:w-auto ">
-            <img src="/features-images/image1.png" alt=""/>
+            <img src="/features-images/Image1.png" alt=""/>
             </div>
         </div>
         </div>
@@ -57,7 +57,7 @@ return (
         {/* Language-agnostic support */}
         <div className="bg-[#16161A] rounded-3xl p-6 flex flex-col h-full">
             <div className="bg-[#26262B] w-12 h-12 rounded-lg flex items-center justify-center mb-4">
-            <img src="/features-images/icon2.png" alt="" />
+            <img src="/features-images/Icon2.png" alt="" />
             </div>
             <h3 className="text-md md:text-lg font-semibold mb-2">Language-agnostic support</h3>
             <p className="text-gray-400 text-[12px] md:text-sm flex-grow ">
@@ -70,7 +70,7 @@ return (
         {/* Context-aware analysis */}
         <div className="bg-[#16161A] rounded-3xl p-6 flex flex-col h-full">
             <div className="bg-[#26262B] w-12 h-12 rounded-lg flex items-center justify-center mb-4">
-            <img src="/features-images/icon5.png" alt="" />
+            <img src="/features-images/Icon5.png" alt="" />
             </div>
             <h3 className="text-md md:text-lg font-semibold mb-2">Context-aware analysis</h3>
             <p className="text-gray-400 text-[12px] md:text-sm flex-grow">
@@ -88,7 +88,7 @@ return (
          {/* PR integration */}
         <div className="bg-[#16161A] rounded-3xl p-6 flex flex-col h-full ">
             <div className="bg-[#26262B] w-12 h-12 rounded-lg flex items-center justify-center mb-4">
-            <img src="/features-images/icon3.png" alt="" />
+            <img src="/features-images/Icon3.png" alt="" />
             </div>
             <h3 className="text-md md:text-lg font-semibold mb-2">PR integration</h3>
             <p className="text-gray-400 text-[12px] md:text-sm flex-grow ">
@@ -98,14 +98,14 @@ return (
             </p>
 
             <div className='hidden lg:flex justify-end absolute lg:translate-x-1 lg:translate-y-104 lg:h-[180px]  xl:translate-x-1 xl:translate-y-72 xl:h-[200px]'>
-                <img src="/features-images/image2.png" alt="" />
+                <img src="/features-images/Image2.png" alt="" />
             </div>
         </div>
 
         {/* Real-time feedback via CLI */}
         <div className="bg-[#16161A] rounded-3xl p-6 flex flex-col h-full">
             <div className="bg-[#26262B] w-12 h-12 rounded-lg flex items-center justify-center mb-4">
-            <img src="/features-images/icon4.png" alt="" />
+            <img src="/features-images/Icon4.png" alt="" />
             </div>
             <h3 className="text-md md:text-lg font-semibold mb-2 xl:w-[70%]">Real-time feedback via CLI</h3>
             <p className="text-gray-400 text-[12px] md:text-sm flex-grow">

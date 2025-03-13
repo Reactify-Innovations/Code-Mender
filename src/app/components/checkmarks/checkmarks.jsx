@@ -10,7 +10,7 @@ const features = [
     title: "AI Pull Request Review",
     description:
     "Ship cleaner, more reliable code faster with automated pull request reviews—designed for developers.",
-    icon: <img src="/checkmarks-icons/icon.png" alt="" />,
+    icon: <img src="/checkmarks-icons/Icon.png" alt="" />,
     buttons: [
     { label: "Web Summary", id: "web-summary" },
     { label: "YouTube Summary", id: "youtube-summary" },
@@ -23,7 +23,7 @@ const features = [
     title: "Automated Code Review",
     description:
     "Simplifies routine coding tasks with intelligent, automated code reviews that prioritize speed and accuracy.",
-    icon: <img src="/checkmarks-icons/icon (1).png" alt="" />,
+    icon: <img src="/checkmarks-icons/Icon (1).png" alt="" />,
     buttons: [
     { label: "Extract Structured Information", id: "extract-structured-info" },
     { label: "Form Interface", id: "form-interface" },
@@ -36,7 +36,7 @@ const features = [
     title: "Code Checker",
     description:
     "Offers developer-friendly features to identify, correct, and improve code at the line level.",
-    icon: <img src="/checkmarks-icons/icon (2).png" alt="" />,
+    icon: <img src="/checkmarks-icons/Icon (2).png" alt="" />,
     buttons: [
     { label: "Notion Automation", id: "notion-automation" },
     { label: "Email Automation", id: "email-automation" },

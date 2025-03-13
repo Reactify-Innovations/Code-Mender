@@ -27,12 +27,12 @@
             
             <div className="flex flex-col md:flex-row justify-center items-center gap-6 text-sm text-gray-400 mb-16">
             <div className="flex items-center gap-1 text-[12px]">
-                <img src="/icons/icon.png" alt="" />
+                <img src="/icons/Icon.png" alt="" />
                 Free tier available
             </div>
             
             <div className="flex items-center gap-1 text-[12px]">
-                <img src="/icons/icon.png" alt="" />
+                <img src="/icons/Icon.png" alt="" />
                 No credit card required
             </div>
             </div>

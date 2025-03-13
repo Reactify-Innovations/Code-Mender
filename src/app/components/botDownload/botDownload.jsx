@@ -13,7 +13,7 @@ export default function BotDownload() {
                 <p className="text-sm md:text-2xl xl:text-5xl font-bold"> <span>Personalized</span> <br /> AI PR Reviewer Bot</p>
 
                 <button className="bg-white hover:bg-[#ffffffd4] transition duration-200 ease-in-out text-black text-sm md:text-lg font-semibold rounded-xl py-3 px-3 flex items-center gap-2"> 
-                    <img src="/icon.png" alt="" />
+                    <img src="/Icon.png" alt="" />
                     Add to Chrome it's Free</button> 
             </div>
         </div>
