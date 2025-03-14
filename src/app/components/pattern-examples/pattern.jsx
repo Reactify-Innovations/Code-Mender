@@ -74,19 +74,19 @@ switch (iconName) {
 }
 };
 
-const renderChartImage = () => {
-    return (
-    <div className="relative w-full h-[250px] max-w-[400px] mx-auto">
-        <Image
-        src="/chart.png"
-        alt="Chart"
-        width={400}
-        height={250}
-        className="absolute inset-0 w-full h-full object-contain"
-        />
-    </div>
-    );
-};
+    const renderChartImage = () => {
+        return (
+        <div className="relative w-full h-[150px] md:h-[250px] max-w-[300px] md:max-w-[400px] mx-auto">
+            <Image
+            src="/chart.png"
+            alt="Chart"
+            fill
+            className="absolute inset-0 w-full h-full object-contain"
+            />
+        </div>
+        );
+    };
+    
     
 
 const currentContent = tabContent[activeTab];
@@ -97,7 +97,7 @@ return (
     whileInView={{ opacity: 1, y: 0 }}
     transition={{ duration: 0.8 }}
     viewport={{ once: true }}
-    className="w-full md:w-[90%] lg:w-[90%] xl:w-[60%] mx-auto text-white py-16 px-2 md:px-2"
+    className="w-full md:w-[90%] lg:w-[90%] xl:w-[55%] mx-auto text-white py-16 px-2 md:px-2"
 >
     <div className="container mx-auto max-w-5xl">
     <motion.h2
@@ -134,7 +134,7 @@ return (
             <button
             key={tab.id}
             onClick={() => setActiveTab(tab.id)}
-            className={`flex items-center px-4 md:px-8 xl:px-14 text-[12px] md:text-[16px] xl:text-lg font-bold py-2 md:py-3 rounded-xl transition-colors ${
+            className={`flex items-center px-1 md:px-8 xl:px-14 text-[12px] md:text-[16px] xl:text-lg font-bold py-2 md:py-3 rounded-xl transition-colors ${
                 activeTab === tab.id ? "bg-[#333333]" : "bg-transparent hover:bg-[#FFFFFF14]"
             }`}
             >
@@ -167,19 +167,21 @@ return (
             <div className="mt-8">
             <button className="flex items-center gap-2 px-5 py-3 bg-[#26262B] hover:bg-[#26262bb4] rounded-full text-sm md:text-lg text-[#8D8D99] transition-colors">
                 Get started free
+                <img src="/icons/arrow.png" alt="" />
             </button>
             </div>
         </motion.div>
 
         <motion.div
-  initial={{ opacity: 0, x: 25 }}
-  whileInView={{ opacity: 1, x: 0 }}
-  transition={{ duration: 0.8, delay: 0.5 }}
-  viewport={{ once: true }}
-  className="md:w-1/2 flex items-center justify-center "
->
-  {renderChartImage()}
-</motion.div>
+            initial={{ opacity: 0, x: 25 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, delay: 0.5 }}
+            viewport={{ once: true }}
+            className="md:w-1/2 flex items-center justify-center"
+            >
+            {renderChartImage()}
+        </motion.div>
+
 
 
 

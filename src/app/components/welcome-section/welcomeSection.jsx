@@ -10,7 +10,7 @@ const features = [
     title: "AI Pull Request Review",
     description:
     "Ship cleaner, more reliable code faster with automated pull request reviews—designed for developers.",
-    icon: <img src="/checkmarks-icons/Icon.png" alt="" />,
+    icon: <img src="/welcome-section/Icon.png" alt="" />,
     buttons: [
     { label: "Web Summary", id: "web-summary" },
     { label: "YouTube Summary", id: "youtube-summary" },
@@ -23,7 +23,7 @@ const features = [
     title: "Automated Code Review",
     description:
     "Simplifies routine coding tasks with intelligent, automated code reviews that prioritize speed and accuracy.",
-    icon: <img src="/checkmarks-icons/Icon (1).png" alt="" />,
+    icon: <img src="/welcome-section/Icon (1).png" alt="" />,
     buttons: [
     { label: "Extract Structured Information", id: "extract-structured-info" },
     { label: "Form Interface", id: "form-interface" },
@@ -36,7 +36,7 @@ const features = [
     title: "Code Checker",
     description:
     "Offers developer-friendly features to identify, correct, and improve code at the line level.",
-    icon: <img src="/checkmarks-icons/Icon (2).png" alt="" />,
+    icon: <img src="/welcome-section/Icon (2).png" alt="" />,
     buttons: [
     { label: "Notion Automation", id: "notion-automation" },
     { label: "Email Automation", id: "email-automation" },
@@ -61,16 +61,16 @@ return (
         >
             <div className="flex items-center gap-3 mb-3">
             <div className="flex-shrink-0">{feature.icon}</div>
-            <h2 className="text-xl md:text-2xl font-semibold">{feature.title}</h2>
+            <h2 className="text-lg md:text-2xl font-semibold">{feature.title}</h2>
             </div>
 
-            <p className="text-gray-400 mb-6">{feature.description}</p>
+            <p className="text-gray-400 mb-6 text-sm md:text-lg">{feature.description}</p>
 
             <div>
             {feature.buttons.map((button) => (
                 <button
                 key={button.id}
-                className="px-3 py-2 m-1 text-sm text-[#8D8D99] bg-[#303038] hover:bg-[#3030389d] rounded-lg text-left transition-colors whitespace-nowrap overflow-hidden text-ellipsis"
+                className="px-3 py-2 m-1 text-[12px] md:text-sm text-[#8D8D99] bg-[#303038] hover:bg-[#3030389d] rounded-lg text-left transition-colors whitespace-nowrap overflow-hidden text-ellipsis"
                 >
                 {button.label}
                 </button>

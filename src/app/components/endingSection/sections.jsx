@@ -18,7 +18,7 @@
             id: 1,
             title: "Automated code review",
             description: "Automatically runs checks to keep your code clean.",
-            imgSrc: "/section-images/img1.png",
+            imgSrc: "/ending-section/img1.png",
             direction: "md:flex-row",
             animationX: 100,
             },
@@ -26,7 +26,7 @@
             id: 2,
             title: "AI pull request review",
             description: "Scans your pull requests, flags problems, and leaves comments.",
-            imgSrc: "/section-images/img2.png",
+            imgSrc: "/ending-section/img2.png",
             direction: "md:flex-row-reverse",
             animationX: -100,
             },
@@ -34,7 +34,7 @@
             id: 3,
             title: "Code checker",
             description: "Checks your code across multiple languages, helps you catch & fix bugs faster.",
-            imgSrc: "/section-images/img3.png",
+            imgSrc: "/ending-section/img3.png",
             direction: "md:flex-row",
             animationX: 100,
             },
@@ -73,6 +73,7 @@
                 <h2 className="text-md md:text-2xl font-bold">{feature.description}</h2>
                 <button className="bg-[#26262B] text-[#8D8D99] rounded-full px-4 md:px-6 py-2 flex items-center gap-2 hover:bg-[#26262b96] transition-colors">
                 Get started
+                <img src="/icons/arrow.png" alt="" />
                 </button>
             </motion.div>
             </div>

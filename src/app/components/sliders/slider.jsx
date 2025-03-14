@@ -49,8 +49,8 @@ return (
             ))}
         </div>
         {/* Gradient Overlays for Fading Effect */}
-        <div className="absolute left-0 top-0 h-full w-32 bg-gradient-to-r from-[#08090A] to-transparent z-10"></div>
-        <div className="absolute right-0 top-0 h-full w-32 bg-gradient-to-l from-[#08090A] to-transparent z-10"></div>
+            <div className="absolute left-0 top-0 h-full w-12 md:w-24 lg:w-32 bg-gradient-to-r from-[#08090A] to-transparent z-10"></div>
+            <div className="absolute right-0 top-0 h-full w-12 md:w-24 lg:w-32 bg-gradient-to-l from-[#08090A] to-transparent z-10"></div>
         </div>
 
         {/* Second Slider - Moves Right */}
@@ -68,8 +68,8 @@ return (
             ))}
         </div>
         {/* Gradient Overlays for Fading Effect */}
-        <div className="absolute left-0 top-0 h-full w-32 bg-gradient-to-r from-[#08090A] to-transparent z-10"></div>
-        <div className="absolute right-0 top-0 h-full w-30 bg-gradient-to-l from-[#08090A] to-transparent z-10"></div>
+            <div className="absolute left-0 top-0 h-full w-12 md:w-24 lg:w-32 bg-gradient-to-r from-[#08090A] to-transparent z-10"></div>
+            <div className="absolute right-0 top-0 h-full w-12 md:w-24 lg:w-32 bg-gradient-to-l from-[#08090A] to-transparent z-10"></div>
         </div>
     </div>
     </section>
