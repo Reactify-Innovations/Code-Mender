@@ -9,8 +9,8 @@ const Navbar = () => {
 const [isOpen, setIsOpen] = useState(false);
 
 return (
-<nav className="w-full py-4 relative">
-    <div className="container w-[95%] md:w-[95%] xl:w-[85%] border-1 border-[#313138] rounded-2xl mx-auto px-2 py-2 flex items-center justify-between">
+<nav className="w-full relative sticky top-0 z-50 pt-4 bg-transparent backdrop-blur-md">
+    <div className="container w-[95%] md:w-[95%] xl:w-[85%] border-1 border-[#313138] rounded-2xl mx-auto px-4 py-3 flex items-center justify-between">
     <div className="flex items-center space-x-8">
         {/* Logo */}
         <Link href="/" className="flex items-center ml-1">
@@ -23,6 +23,7 @@ return (
         {/* Desktop Navigation Links */}
         <div className="hidden lg:flex space-x-6 ">
         <a href="#patterns" className="text-[#8D8D99] hover:text-white cursor-pointer">Patterns</a>
+        <a href="#features" className="text-[#8D8D99] hover:text-white cursor-pointer">Features</a>
         <a href="#how-it-works" className="text-[#8D8D99] hover:text-white cursor-pointer">How it works</a>
         <a href="#pricing" className="text-[#8D8D99] hover:text-white cursor-pointer">Pricing</a>
         <a href="#docs" className="text-[#8D8D99] hover:text-white cursor-pointer">Docs</a>

@@ -3,7 +3,7 @@ import React from 'react';
 
 const Features = () => {
 return (
-    <div className=" text-white w-full py-12 md:py-20">
+    <div id="features" className=" text-white w-full py-12 md:py-20">
     <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
