@@ -31,3 +31,7 @@ body {
     animation: scrollRight 10s linear infinite;
     white-space: nowrap;
 }
+
+html {
+  scroll-behavior: smooth;
+}

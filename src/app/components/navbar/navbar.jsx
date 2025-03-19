@@ -22,17 +22,11 @@ return (
         
         {/* Desktop Navigation Links */}
         <div className="hidden lg:flex space-x-6 ">
-        <div className="relative group">
-            <Link href="/products" className="text-[#8D8D99] hover:text-white flex items-center">
-            Products
-            <ChevronDown className="h-4 w-4 ml-1" />
-            </Link>
-        </div>
-        <Link href="/patterns" className="text-[#8D8D99] hover:text-white">Patterns</Link>
-        <Link href="/how-to-use" className="text-[#8D8D99] hover:text-white">How to use</Link>
-        <Link href="/pricing" className="text-[#8D8D99] hover:text-white">Pricing</Link>
-        <Link href="/docs" className="text-[#8D8D99] hover:text-white">Docs</Link>
-        <Link href="/resources" className="text-[#8D8D99] hover:text-white">Resources</Link>
+        <a href="#patterns" className="text-[#8D8D99] hover:text-white cursor-pointer">Patterns</a>
+        <a href="#how-it-works" className="text-[#8D8D99] hover:text-white cursor-pointer">How it works</a>
+        <a href="#pricing" className="text-[#8D8D99] hover:text-white cursor-pointer">Pricing</a>
+        <a href="#docs" className="text-[#8D8D99] hover:text-white cursor-pointer">Docs</a>
+        <a href="#resources" className="text-[#8D8D99] hover:text-white cursor-pointer">Resources</a>
         </div>
     </div>
     
@@ -94,49 +88,49 @@ return (
 
         {/* Mobile Navigation Links */}
         <div className="flex flex-col space-y-4 mt-6 px-2">
-        <Link
-            href="/products"
+        <a
+            href="#products"
             className="text-[#8D8D99] hover:text-white flex items-center justify-between"
             onClick={() => setIsOpen(false)}
         >
             Products
             <ChevronDown className="h-4 w-4" />
-        </Link>
-        <Link
-            href="/patterns"
+        </a>
+        <a
+            href="#patterns"
             className="text-[#8D8D99] hover:text-white"
             onClick={() => setIsOpen(false)}
         >
             Patterns
-        </Link>
-        <Link
-            href="/how-to-use"
+        </a>
+        <a
+            href="#how-it-works"
             className="text-[#8D8D99] hover:text-white"
             onClick={() => setIsOpen(false)}
         >
             How to use
-        </Link>
-        <Link
-            href="/pricing"
+        </a>
+        <a
+            href="#pricing"
             className="text-[#8D8D99] hover:text-white"
             onClick={() => setIsOpen(false)}
         >
             Pricing
-        </Link>
-        <Link
-            href="/docs"
+        </a>
+        <a
+            href="#docs"
             className="text-[#8D8D99] hover:text-white"
             onClick={() => setIsOpen(false)}
         >
             Docs
-        </Link>
-        <Link
-            href="/resources"
+        </a>
+        <a
+            href="#resources"
             className="text-[#8D8D99] hover:text-white"
             onClick={() => setIsOpen(false)}
         >
             Resources
-        </Link>
+        </a>
         </div>
     </div>
     </div>
