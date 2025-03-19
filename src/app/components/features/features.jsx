@@ -62,7 +62,7 @@ return (
             <h3 className="text-md md:text-lg font-semibold mb-2">Language-agnostic support</h3>
             <p className="text-gray-400 text-[12px] md:text-sm flex-grow ">
             Forget about swapping tools or setups when working across
-            different programming languages, Trag can work with
+            different programming languages, code mender can work with
             any language.
             </p>
         </div>

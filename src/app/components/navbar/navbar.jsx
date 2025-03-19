@@ -9,7 +9,7 @@ const Navbar = () => {
 const [isOpen, setIsOpen] = useState(false);
 
 return (
-<nav className="w-full relative sticky top-0 z-50 ">
+<nav className="w-full sticky top-0 z-50 ">
     <div className="container w-[95%] md:w-[95%] xl:w-[85%] border-1 border-[#313138] rounded-2xl mx-auto px-4 py-3 mt-4 flex items-center justify-between bg-transparent backdrop-blur-md">
     <div className="flex items-center space-x-8">
         {/* Logo */}
@@ -25,7 +25,7 @@ return (
         <a href="#patterns" className="text-[#8D8D99] hover:text-white cursor-pointer">Patterns</a>
         <a href="#features" className="text-[#8D8D99] hover:text-white cursor-pointer">Features</a>
         <a href="#how-it-works" className="text-[#8D8D99] hover:text-white cursor-pointer">How it works</a>
-        <a href="#pricing" className="text-[#8D8D99] hover:text-white cursor-pointer">Pricing</a>
+        <Link href="/pricing" className="text-[#8D8D99] hover:text-white cursor-pointer">Pricing</Link>
         <a href="#docs" className="text-[#8D8D99] hover:text-white cursor-pointer">Docs</a>
         <a href="#resources" className="text-[#8D8D99] hover:text-white cursor-pointer">Resources</a>
         </div>
@@ -108,15 +108,15 @@ return (
             className="text-[#8D8D99] hover:text-white"
             onClick={() => setIsOpen(false)}
         >
-            How it works
+            How to use
         </a>
-        <a
-            href="#pricing"
+        <Link
+            href="/pricing.jsx"
             className="text-[#8D8D99] hover:text-white"
             onClick={() => setIsOpen(false)}
         >
             Pricing
-        </a>
+        </Link>
         <a
             href="#docs"
             className="text-[#8D8D99] hover:text-white"
