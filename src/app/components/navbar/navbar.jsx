@@ -9,8 +9,8 @@ const Navbar = () => {
 const [isOpen, setIsOpen] = useState(false);
 
 return (
-<nav className="w-full relative sticky top-0 z-50 pt-4 bg-transparent backdrop-blur-md">
-    <div className="container w-[95%] md:w-[95%] xl:w-[85%] border-1 border-[#313138] rounded-2xl mx-auto px-4 py-3 flex items-center justify-between">
+<nav className="w-full relative sticky top-0 z-50 ">
+    <div className="container w-[95%] md:w-[95%] xl:w-[85%] border-1 border-[#313138] rounded-2xl mx-auto px-4 py-3 mt-4 flex items-center justify-between bg-transparent backdrop-blur-md">
     <div className="flex items-center space-x-8">
         {/* Logo */}
         <Link href="/" className="flex items-center ml-1">
@@ -90,14 +90,6 @@ return (
         {/* Mobile Navigation Links */}
         <div className="flex flex-col space-y-4 mt-6 px-2">
         <a
-            href="#products"
-            className="text-[#8D8D99] hover:text-white flex items-center justify-between"
-            onClick={() => setIsOpen(false)}
-        >
-            Products
-            <ChevronDown className="h-4 w-4" />
-        </a>
-        <a
             href="#patterns"
             className="text-[#8D8D99] hover:text-white"
             onClick={() => setIsOpen(false)}
@@ -105,11 +97,18 @@ return (
             Patterns
         </a>
         <a
+            href="#features"
+            className="text-[#8D8D99] hover:text-white"
+            onClick={() => setIsOpen(false)}
+        >
+            Features
+        </a>
+        <a
             href="#how-it-works"
             className="text-[#8D8D99] hover:text-white"
             onClick={() => setIsOpen(false)}
         >
-            How to use
+            How it works
         </a>
         <a
             href="#pricing"
